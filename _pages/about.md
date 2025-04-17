@@ -17,4 +17,4 @@ Prior to my PhD, I received my B.Sc. and M.Sc. degrees in **Electrical and Elect
 
 Beyond research, I’m passionate about teaching, mentoring, and promoting the next generation of biomedical IC design.
 
-📫 Feel free to reach out via [email@example.com](mailto:email@example.com) or connect on [LinkedIn](https://www.linkedin.com/in/yourprofile).
+📫 Feel free to reach out via [b.ozbek22@imperial.ac.uk](mailto:b.ozbek22@imperial.ac.uk) or connect on [LinkedIn](https://www.linkedin.com/in/berkayozbek/).
