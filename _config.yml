@@ -22,18 +22,18 @@ repository               : "berkayozbek.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "berkayfoto.jpg"
-  name             : "Berkay Ozbek"
-  pronouns         : # example: "she/her"  
-bio: >
-  PhD Researcher, Imperial College London  
-  Analog/Mixed-Signal IC Design  
-  Low-power biomedical electronics, RF energy harvesting, secure wireless systems for neural interfaces
+  avatar: "berkayfoto.jpg"
+  name: "Berkay Ozbek"
+  pronouns: # example: "she/her"
+  bio: >
+    PhD Researcher, Imperial College London
+    Analog/Mixed-Signal IC Design
+    Low-power biomedical electronics, RF energy harvesting, secure wireless systems for neural interfaces
+  location: "Next Generation Neural Interfaces Lab"
+  employer: "Imperial College London"
+  # uri: # URL
+  email: "b.ozbek22@imperial.ac.uk"
 
-  location         : "Next Generation Neural Interfaces Lab"
-  employer         : "Imperial College London"
-  # uri              : # URL
-  email            : "b.ozbek22@imperial.ac.uk" 
 
   # Academic websites
   # arxiv            : # URL - Update with the correct link to your profile
