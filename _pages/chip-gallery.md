@@ -5,30 +5,24 @@ permalink: /chip-gallery/
 ---
 
 
-Here you can find images of my fabricated chips, each with their name and description.
-
 ## Chips
 
 ### 1. **NeuroStreamX**
-   ![Chip 1](NeuroStreamX.png)
-   Description: This chip is designed for [specific purpose]. It features [key specifications or unique features].
+<img src="assets/images/NeuroStreamX.png" alt="NeuroStreamX" style="width:300px;height:200px;object-fit:cover;">
+Description: This chip is designed for [specific purpose]. It features [key specifications or unique features].
 
 ### 2. **Paprika**
-   ![Chip 2](Paprika.png)
-   Description: A high-performance chip designed for [specific purpose]. Highlights include [notable features].
+<img src="assets/images/Paprika.png" alt="Paprika" style="width:300px;height:200px;object-fit:cover;">
+Description: A high-performance chip designed for [specific purpose]. Highlights include [notable features].
 
 ### 3. **NeuroLock**
-   ![Chip 3](ER31.png)
-   Description: A robust chip for [specific application]. It integrates [core technologies or design aspects].
+<img src="assets/images/ER31.png" alt="NeuroLock" style="width:300px;height:200px;object-fit:cover;">
+Description: A robust chip for [specific application]. It integrates [core technologies or design aspects].
 
 ### 4. **WPT-1**
-   ![Chip 3](ER32.png)
-   Description: A robust chip for [specific application]. It integrates [core technologies or design aspects].
+<img src="assets/images/ER32.png" alt="WPT-1" style="width:300px;height:200px;object-fit:cover;">
+Description: A robust chip for [specific application]. It integrates [core technologies or design aspects].
 
-   
-### 4. **Gm-C Flamenco**
-   ![Chip 3](Flamenco.png)
-   Description: A robust chip for [specific application]. It integrates [core technologies or design aspects].
-   
-## More Chips Coming Soon
-Stay tuned for updates as I continue to work on new projects and bring more chips to this gallery.
+### 5. **Gm-C Flamenco**
+<img src="assets/images/Flamenco.png" alt="Gm-C Flamenco" style="width:300px;height:200px;object-fit:cover;">
+Description: A robust chip for [specific application]. It integrates [core technologies or design aspects].
