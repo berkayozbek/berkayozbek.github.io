@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 author_profile: true
----
+--- 
 
 # Berkay Özbek
 
