@@ -2,7 +2,7 @@
 title: "About"
 author_profile: true
 layout: default # Ensure you have a _layouts/default.html file
- permalink: /about.html
+ # permalink: /about.html
 ---
 
 # Berkay Özbek
