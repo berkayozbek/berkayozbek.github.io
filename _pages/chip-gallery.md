@@ -7,7 +7,7 @@ permalink: /chip-gallery/
 
 ## Chips
 
-### 1. **NeuroStreamX**
+### 1. **NeuroStreamX (in Fabrication)**
 <img src="/images/NeuroStreamX.png" alt="NeuroStreamX" style="width:500px;height:400px;object-fit:cover;">
 Description: This chip is designed for [specific purpose]. It features [key specifications or unique features].
 
