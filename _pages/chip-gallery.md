@@ -21,12 +21,12 @@ Here you can find images of my fabricated chips, each with their name and descri
    ![Chip 3](assets/images/ER31.png)
    Description: A robust chip for [specific application]. It integrates [core technologies or design aspects].
 
- ### 4. **WPT-1**
+### 4. **WPT-1**
    ![Chip 3](assets/images/ER32.png)
    Description: A robust chip for [specific application]. It integrates [core technologies or design aspects].
 
    
- ### 4. **Gm-C Flamenco**
+### 4. **Gm-C Flamenco**
    ![Chip 3](assets/images/Flamenco.png)
    Description: A robust chip for [specific application]. It integrates [core technologies or design aspects].
    
