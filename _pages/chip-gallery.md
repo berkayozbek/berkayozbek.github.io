@@ -33,6 +33,6 @@ permalink: /chip-gallery/
 
 <img src="/images/Flamenco.png" alt="Gm-C Flamenco" style="width:500px;height:400px;object-fit:contain;display:block;margin:10px 0;border:1px solid #ddd;background:#f9f9f9;padding:5px;">
 
-<p><strong>Description:</strong> This chip features a highly tunable second-order Gm-C bandpass filter optimized for the low-power demands of cochlear implants. Operating in the subthreshold region, it achieves resonance frequency tuning across the daily acoustic band of 200 - 6000 Hz and a quality factor from 1 to 3, all while consuming minimal power (13.2 nW) in a small footprint.</p>
+<p><strong>Description:</strong> This chip features a highly tunable bulk-driven second-order Gm-C bandpass filters optimized for the low-power demands of cochlear implants. Operating in the subthreshold region, it achieves resonance frequency tuning across the daily acoustic band of 200 - 6000 Hz and a quality factor from 1 to 3, all while consuming minimal power (13.2 nW) in a small footprint.</p>
 
 
