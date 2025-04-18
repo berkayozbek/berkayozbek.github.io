@@ -1,5 +1,5 @@
 ---
-layout: page
+
 title: "Chip Gallery"
 permalink: /chip-gallery/
 ---
