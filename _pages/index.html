@@ -1,31 +1,64 @@
 ---
-layout: compress
+layout: default
+title: "About Me"
+sitemap: false
+author_profile: true
 ---
 
-{% include base_path %}
+<div class="about-content">
+    <h2>🧑‍💻 About Berkay Özbek</h2>
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+    <p>
+        I’m <strong>Berkay Özbek</strong>, a PhD candidate in the <a href="https://www.imperial.ac.uk/neural-interfaces">Next Generation Neural Interfaces (NGNI) Lab</a> under the supervision of <a href="https://profiles.imperial.ac.uk/t.constandinou/">Prof. Timothy G. Constandinou</a> at Imperial College London, where I have been developing low-power analog and mixed-signal integrated circuits for biomedical implants. My work focuses on architecting secure, ultra-efficient wireless power and data transfer systems that enable minimally invasive, distributed neural interfaces, propelling innovations in implantable neural interface technologies.
+    </p>
 
-  <body>
+    <h3><span class="section-icon">⚙️</span> Professional Summary</h3>
+    <p>Analog & Mixed-Signal IC Designer with 7+ years’ experience and multiple 180 nm & 65 nm tape-outs. Expertise includes:</p>
+    <ul>
+        <li>
+            <strong>Ultra-Low-Power Analog:</strong> LDOs, BGRs, Charge Pumps, DACs, Op-amps/OTAs, PGAs, LNAs, Gm-C Filters, Current References/Mirrors, ESD Protection
+        </li>
+        <li>
+            <strong>RF & Mixed-Signal:</strong> VCOs, PLLs, CDRs, RF rectifiers, ASK/LSK Front-ends, Encoders/Decoders, TRNGs & OTP memory
+        </li>
+        <li>
+            <strong>Tools & Flow:</strong> Cadence Virtuoso (schematic → layout → tape-out), Verilog-A Modeling, Spectre/HSPICE/LTspice Simulation, Calibre DRC/LVS verification
+        </li>
+    </ul>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    <h3><span class="section-icon">🎓</span> Education</h3>
+    <ul>
+        <li>
+            <strong>Imperial College London (ICL), London, UK</strong> <em>(2022–Present)</em><br>
+            <em>PhD in Electrical & Electronic Engineering</em><br>
+            <strong>Supervisor:</strong> <a href="https://profiles.imperial.ac.uk/t.constandinou/">Prof. Timothy G. Constandinou</a>
+        </li>
+        <li>
+            <strong>Middle East Technical University (METU), Ankara, Turkey</strong> <em>(2019–2021)</em><br>
+            <em>MSc in Electrical & Electronics Engineering (Microelectronics)</em><br>
+            <strong>GPA:</strong> 3.86 / 4.00<br>
+            <strong>Thesis:</strong> <em>Low-Power Highly-Programmable Analog Front-End for 12-Channel Fully Implantable Cochlear Implants</em><br>
+            <strong>Supervisor:</strong> <a href="http://biomems.eee.metu.edu.tr/dr-haluk-kulah/">Prof. Haluk Külah</a>
+        </li>
+        <li>
+            <strong>Middle East Technical University (METU), Ankara, Turkey</strong> <em>(2014–2019)</em><br>
+            <em>BSc in Electrical & Electronics Engineering (Electronics & Biomedical)</em>
+        </li>
+    </ul>
 
-    {{ content }}
+    <h3><span class="section-icon">🏆</span> Awards & Grants</h3>
+    <ul>
+        <li><strong>TÜBİTAK International PhD Fellowship</strong> (2022–Present)</li>
+        <li><strong>TÜBİTAK Young Entrepreneur Grant</strong> (2020)</li>
+        <li><strong>TÜBİTAK MSc Scholarship</strong> (2019–2021)</li>
+        <li><strong>TEV Outstanding Success Scholarship</strong> (2015–2019)</li>
+    </ul>
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+    <h3><span class="section-icon">✉️</span> Contact</h3>
+    <div class="contact-links">
+        <a href="mailto:berkay.ozbek@imperial.ac.uk">📧 berkay.ozbek@imperial.ac.uk</a>
+        <a href="https://www.linkedin.com/in/berkayozbek/">🔗 LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user=rCecV7wAAAAJ">📚 Google Scholar</a>
     </div>
-
-    {% include scripts.html %}
-
-  </body>
-</html>
+    <p>📍 Bessemer Building B422, Imperial College London, SW7 2AZ, UK</p>
+</div>
