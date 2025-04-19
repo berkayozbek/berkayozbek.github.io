@@ -14,24 +14,31 @@ author_profile: true
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publications</title>
     <style>
+        /* CSS styling for the publications content */
+        /* This CSS is embedded here, mirroring the structure of your teaching.html */
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             /* Adjust margin if your Jekyll layout already provides padding */
+            /* You might need to adjust this margin based on your layout's default body styling */
             margin: 20px;
             color: #333;
         }
 
         /* Style for the main heading (if you add one, e.g., <h2>Publications</h2>) */
-        /* h2 {
-            color: #0056b3;
-            border-bottom: 2px solid #0056b3;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-            display: inline-block;
-        } */
+        /* If you want a main heading like on the teaching page, add <h2>Publications</h2> in the body */
+         h2 {
+             color: #0056b3;
+             border-bottom: 2px solid #0056b3;
+             padding-bottom: 10px;
+             margin-bottom: 20px;
+             display: inline-block;
+         }
+
 
         /* Style the paragraph with the Google Scholar link */
+        /* Added a class to the paragraph for easier targeting */
         .google-scholar-link {
             text-align: center;
             font-style: italic;
@@ -84,6 +91,7 @@ author_profile: true
         }
 
         /* Style for the publication details paragraph directly inside the li */
+        /* This targets the <p> that contains the authors, title, venue, etc. */
          ul li > p:first-child {
              margin-top: 0;
              margin-bottom: 10px; /* Space after the main publication details paragraph */
@@ -121,10 +129,21 @@ author_profile: true
             text-decoration: underline;
         }
 
+        /* Optional: Style for the main page title like on Teaching page */
+        /* If you want a title like "Publications" similar to "Teaching & Supervision" */
+        /* You might already have this handled by your layout, but including here just in case */
+        /* .page__title {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: inline-block;
+        } */
+
+
     </style>
 </head>
 <body>
-
     <p class="google-scholar-link"><em>For a full, up‑to‑date list, see my <a href="https://scholar.google.com/citations?user=rCecV7wAAAAJ">Google Scholar</a> profile.</em></p>
     <hr>
 
@@ -151,7 +170,7 @@ author_profile: true
             J. Ge, <strong>B. Özbek</strong>, P. Feng, A. Mifsud &amp; T. G. Constandinou (2024). “Flexible Electromagnetic‑Lens for Wireless, Implantable Brain Machine Interfaces.” <em>IEEE BioCAS ’24</em>, Xi’an, China, pp. 1–5. <a href="https://doi.org/10.1109/BioCAS61083.2024.10798285">doi:10.1109/BioCAS61083.2024.10798285</a>
             </p>
             <blockquote>
-                <p><strong>Abstract:</strong> Demonstrates two metamaterial‑based EM‑lenses (C‑SRR and square resonators) that enhance wireless power transfer (WPT) efficiency in implantable BMIs. C‑SRR yields a 12.07 dB PTE boost ex‑vivo; square resonators improve air‑gap PTE from 0.66 % to 16.58 %. Simulations identify optimal subcutaneous/epidural placements and show &gt; 88 % coverage under misalignment.</p>
+                <p><strong>Abstract:</strong> Demonstrates two metamaterial‑based EM‑lenses (C‑SRR and square resonators) that enhance wireless power transfer (WPT) efficiency in implantable BMIs. C‑SRR yields a 12.07 dB PTE boost ex‑vivo; square resonators improve air‑gap PTE from 0.66 % to 16.58 %. Simulations identify optimal subcutaneous/epidermal placements and show &gt; 88 % coverage under misalignment.</p>
             </blockquote>
         </li>
     </ul>
@@ -172,7 +191,7 @@ author_profile: true
     <ul>
         <li>
             <p>
-            <strong>B. Özbek</strong> &amp; H. Külah (2022). “A 9.03 µW Low Noise Highly Tunable Analog Front‑End for Fully Implantable Cochlear Prosthesis.” <em>IEEE BioCAS ’22</em>, Taipei, Taiwan, pp. 349–353. <a href="https://doi.org/10.1109/BioCAS54905.2022.9948682">doi:10.1109/BioCAS54905.2042.9948682</a>
+            <strong>B. Özbek</strong> &amp; H. Külah (2022). “A 9.03 µW Low Noise Highly Tunable Analog Front‑End for Fully Implantable Cochlear Prosthesis.” <em>IEEE BioCAS ’22</em>, Taipei, Taiwan, pp. 349–353. <a href="https://doi.org/10.1109/BioCAS54905.2022.9948682">doi:10.1109/BioCAS54905.2022.9948682</a>
             </p>
             <blockquote>
                 <p><strong>Abstract:</strong> A 12‑channel analog front‑end (85–6500 Hz) for cochlear implants consuming just 9.03 µW. Operates sub‑20 µVrms, with per‑channel tunable center frequency, bandwidth, and gain. Fabricated in TSMC 180 nm CMOS on 2.4 mm², demonstrating one of the lowest power analog cochlear interfaces to date.</p>
