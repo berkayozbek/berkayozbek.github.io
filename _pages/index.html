@@ -1,187 +1,31 @@
 ---
-layout: default
-title: "About Me"
-sitemap: false
-permalink: /
+layout: compress
 ---
 
-<style>
-    /* Scoped styles for about content */
-    .about-content {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        line-height: 1.6;
-        margin: 20px;
-        color: #333;
-    }
+{% include base_path %}
 
-    .about-content h2 {
-        color: #0056b3;
-        border-bottom: 2px solid #0056b3;
-        padding-bottom: 10px;
-        margin-bottom: 20px;
-        display: inline-block;
-    }
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-    .about-content h3 {
-        color: #007bff;
-        margin-top: 30px;
-        margin-bottom: 15px;
-        font-size: 1.4em;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
+  <body>
 
-    .about-content p {
-        margin-bottom: 15px;
-    }
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-    .about-content ul {
-        list-style: none;
-        padding: 0;
-    }
+    {{ content }}
 
-    .about-content ul li {
-        background-color: #f9f9f9;
-        border: 1px solid #ddd;
-        margin-bottom: 15px;
-        padding: 15px;
-        border-radius: 8px;
-        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .about-content ul li:hover {
-        transform: translateY(-3px);
-        box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
-    }
-
-    .about-content ul ul {
-        list-style: disc;
-        padding-left: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .about-content ul ul li {
-        background-color: transparent;
-        border: none;
-        margin-bottom: 5px;
-        padding: 0;
-        box-shadow: none;
-        font-size: 0.95em;
-    }
-
-    .about-content ul ul li:hover {
-        transform: none;
-        box-shadow: none;
-    }
-
-    .about-content strong {
-        color: #0056b3;
-    }
-
-    .about-content a {
-        color: #007bff;
-        text-decoration: none;
-        transition: color 0.2s ease;
-    }
-
-    .about-content a:hover {
-        color: #0056b3;
-        text-decoration: underline;
-    }
-
-    .about-content hr {
-        border: none;
-        height: 1px;
-        background-color: #ccc;
-        margin: 30px 0;
-    }
-
-    /* Add subtle icons for visual enhancement */
-    .about-content .section-icon {
-        font-size: 1.2em;
-    }
-
-    /* Contact links styling */
-    .about-content .contact-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
-        margin-top: 10px;
-    }
-
-    .about-content .contact-links a {
-        display: inline-flex;
-        align-items: center;
-        gap: 5px;
-        padding: 5px 10px;
-        background-color: #f0f4f8;
-        border-radius: 5px;
-        transition: background-color 0.2s ease;
-    }
-
-    .about-content .contact-links a:hover {
-        background-color: #e0e7ff;
-        text-decoration: none;
-    }
-</style>
-
-<div class="about-content">
-    <h2>🧑‍💻 About Berkay Özbek</h2>
-
-    <p>
-        I’m <strong>Berkay Özbek</strong>, a PhD candidate in the <a href="https://www.imperial.ac.uk/neural-interfaces">Next Generation Neural Interfaces (NGNI) Lab</a> under the supervision of <a href="https://profiles.imperial.ac.uk/t.constandinou/">Prof. Timothy G. Constandinou</a> at Imperial College London, where I have been developing low-power analog and mixed-signal integrated circuits for biomedical implants. My work focuses on architecting secure, ultra-efficient wireless power and data transfer systems that enable minimally invasive, distributed neural interfaces, propelling innovations in implantable neural interface technologies.
-    </p>
-
-    <h3><span class="section-icon">⚙️</span> Professional Summary</h3>
-    <p>Analog & Mixed-Signal IC Designer with 7+ years’ experience and multiple 180 nm & 65 nm tape-outs. Expertise includes:</p>
-    <ul>
-        <li>
-            <strong>Ultra-Low-Power Analog:</strong> LDOs, BGRs, Charge Pumps, DACs, Op-amps/OTAs, PGAs, LNAs, Gm-C Filters, Current References/Mirrors, ESD Protection
-        </li>
-        <li>
-            <strong>RF & Mixed-Signal:</strong> VCOs, PLLs, CDRs, RF rectifiers, ASK/LSK Front-ends, Encoders/Decoders, TRNGs & OTP memory
-        </li>
-        <li>
-            <strong>Tools & Flow:</strong> Cadence Virtuoso (schematic → layout → tape-out), Verilog-A Modeling, Spectre/HSPICE/LTspice Simulation, Calibre DRC/LVS verification
-        </li>
-    </ul>
-
-    <h3><span class="section-icon">🎓</span> Education</h3>
-    <ul>
-        <li>
-            <strong>Imperial College London (ICL), London, UK</strong> <em>(2022–Present)</em><br>
-            <em>PhD in Electrical & Electronic Engineering</em><br>
-            <strong>Supervisor:</strong> <a href="https://profiles.imperial.ac.uk/t.constandinou/">Prof. Timothy G. Constandinou</a>
-        </li>
-        <li>
-            <strong>Middle East Technical University (METU), Ankara, Turkey</strong> <em>(2019–2021)</em><br>
-            <em>MSc in Electrical & Electronics Engineering (Microelectronics)</em><br>
-            <strong>GPA:</strong> 3.86 / 4.00<br>
-            <strong>Thesis:</strong> <em>Low-Power Highly-Programmable Analog Front-End for 12-Channel Fully Implantable Cochlear Implants</em><br>
-            <strong>Supervisor:</strong> <a href="http://biomems.eee.metu.edu.tr/dr-haluk-kulah/">Prof. Haluk Külah</a>
-        </li>
-        <li>
-            <strong>Middle East Technical University (METU), Ankara, Turkey</strong> <em>(2014–2019)</em><br>
-            <em>BSc in Electrical & Electronics Engineering (Electronics & Biomedical)</em>
-        </li>
-    </ul>
-
-    <h3><span class="section-icon">🏆</span> Awards & Grants</h3>
-    <ul>
-        <li><strong>TÜBİTAK International PhD Fellowship</strong> (2022–Present)</li>
-        <li><strong>TÜBİTAK Young Entrepreneur Grant</strong> (2020)</li>
-        <li><strong>TÜBİTAK MSc Scholarship</strong> (2019–2021)</li>
-        <li><strong>TEV Outstanding Success Scholarship</strong> (2015–2019)</li>
-    </ul>
-
-    <h3><span class="section-icon">✉️</span> Contact</h3>
-    <div class="contact-links">
-        <a href="mailto:berkay.ozbek@imperial.ac.uk">📧 berkay.ozbek@imperial.ac.uk</a>
-        <a href="https://www.linkedin.com/in/berkayozbek/">🔗 LinkedIn</a>
-        <a href="https://scholar.google.com/citations?user=rCecV7wAAAAJ">📚 Google Scholar</a>
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
     </div>
-    <p>📍 Bessemer Building B422, Imperial College London, SW7 2AZ, UK</p>
-</div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>
