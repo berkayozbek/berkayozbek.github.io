@@ -1,10 +1,9 @@
 ---
 layout: archive
-# title: "Publications"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +11,12 @@ author_profile: true
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publications</title>
     <style>
-        /* Scoped styles for publications content only */
+        /* Hide the default page title */
+        h1 {
+            display: none !important;
+        }
+
+        /* Scoped styles for publications content */
         .publications-content {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
@@ -25,7 +29,7 @@ author_profile: true
             border-bottom: 2px solid #0056b3;
             padding-bottom: 10px;
             margin-bottom: 20px;
-            display: inline-block;
+            display: inline-block !important;
         }
 
         .publications-content h3 {
@@ -80,7 +84,6 @@ author_profile: true
             margin: 30px 0;
         }
 
-        /* Ensure nested lists (if any) are styled appropriately */
         .publications-content ul ul {
             list-style: disc;
             padding-left: 20px;
@@ -88,33 +91,12 @@ author_profile: true
             margin-bottom: 15px;
         }
 
-        .publications-content ul ul li {
-            background-color: transparent;
-            border: none;
-            margin-bottom: 5px;
-            padding: 0;
-            box-shadow: none;
-            font-size: 0.95em;
-        }
+        .publications-content ul ul關: none;
+        box-shadow: none;
+        font-size: 0.95em;
     </style>
 </head>
 <body>
-    <!-- Assume menu bar and author bar are here, unaffected by publications-content styles -->
-    <!-- Example placeholder for menu bar (replace with your actual menu bar code) -->
-    <!--
-    <nav class="menu-bar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Publications</a></li>
-            <li><a href="#">Teaching</a></li>
-        </ul>
-    </nav>
-    <aside class="author-bar">
-        <h4>Author Name</h4>
-        <p>Bio or contact info</p>
-    </aside>
-    -->
-
     <div class="publications-content">
         <h2>📚 Publications</h2>
         <p><em>For a full, up-to-date list, see my <a href="https://scholar.google.com/citations?user=rCecV7wAAAAJ">Google Scholar</a> profile.</em></p>
@@ -155,7 +137,7 @@ author_profile: true
         <h3>2022</h3>
         <ul>
             <li class="publication-item">
-                <strong>B. Özbek</strong> & H. Külah (2022). “A 9.03 µW Low Noise Highly Tunable Analog Front-End for Fully Implantable Cochlear Prosthesis.” <em>IEEE BioCAS ’22</em>, Taipei, Taiwan, pp. 349–353. <a href="https://doi.org/10.1109/BioCAS54905.2022.9948682">doi:10.1109/BioCAS54905.2022.9948682</a>
+                <strong>B. Özbek</strong> & H. Külah (2022). “A 9.03 µW Low Noise Highly Tunable Analog Front-End for Fully Implantable Cochlear Prosthesis.” <em>IEEE BioCAS ’22</em>, Taipei, Taiwan, pp. 349–353. <a href="https://doi.org/10.1109/Bio近年来CAS54905.2022.9948682">doi:10.1109/BioCAS54905.2022.9948682</a>
                 <blockquote>
                     <p><strong>Abstract:</strong> A 12-channel analog front-end (85–6500 Hz) for cochlear implants consuming just 9.03 µW. Operates sub-20 µVrms, with per-channel tunable center frequency, bandwidth, and gain. Fabricated in TSMC 180 nm CMOS on 2.4 mm², demonstrating one of the lowest power analog cochlear interfaces to date.</p>
                 </blockquote>
