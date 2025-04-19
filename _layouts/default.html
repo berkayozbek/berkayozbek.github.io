@@ -9,14 +9,60 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <!-- Add custom CSS for layout -->
+    <style>
+      /* Ensure the page content is flexible and accommodates the sidebar */
+      .page-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 20px;
+      }
+
+      /* Sidebar styling (adjust as needed based on your theme) */
+      .sidebar {
+        flex: 0 0 300px;
+        margin-right: 20px;
+      }
+
+      /* Main content styling */
+      .main-content {
+        flex: 1;
+        min-width: 0; /* Prevents overflow issues */
+      }
+
+      /* Responsive design: stack sidebar and content on smaller screens */
+      @media (max-width: 768px) {
+        .page-wrapper {
+          flex-direction: column;
+        }
+
+        .sidebar {
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+      }
+    </style>
   </head>
 
   <body>
-
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    {{ content }}
+    <div class="page-wrapper">
+      <!-- Include the author sidebar if author_profile is true -->
+      {% if page.author_profile %}
+        <aside class="sidebar">
+          {% include sidebar.html %}
+        </aside>
+      {% endif %}
+
+      <!-- Main content area -->
+      <main class="main-content">
+        {{ content }}
+      </main>
+    </div>
 
     <div class="page__footer">
       <footer>
@@ -26,6 +72,5 @@ layout: compress
     </div>
 
     {% include scripts.html %}
-
   </body>
 </html>
