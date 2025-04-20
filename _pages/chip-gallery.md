@@ -21,7 +21,7 @@ permalink: /chip-gallery/
 
 <img src="/images/ER31.png" alt="NeuroLock" style="width:500px;height:400px;object-fit:contain;display:block;margin:10px 0;border:1px solid #ddd;background:#f9f9f9;padding:5px;">
 
-<p><strong>Description:</strong> A robust chip for [specific application]. It integrates [core technologies or design aspects].</p>
+<p><strong>Description:</strong> The NeuroLock chip provides secure and collision-free wireless communication for distributed neural implants. It features an autonomous true random number generator (TRNG) that generates a unique ID and key pair on power-up, which is permanently stored in an antifuse one-time programmable (OTP) memory. These IDs enable implant authentication and metaID-based channel allocation, minimizing interference and enhancing data privacy. A self-regulated charge pump dynamically adapts the programming voltage based on process conditions, ensuring robust memory operation without excessive power or additional masks. This chip ensures lightweight, low-power security and access control for scalable neural interface systems.</p>
 
 ### 4. **WPT‑1 @ TSMC 180nm, 2023**
 
