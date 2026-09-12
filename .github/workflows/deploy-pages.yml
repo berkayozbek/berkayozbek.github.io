@@ -1,7 +1,7 @@
 name: Deploy research website
 on:
   push:
-    branches: [main]
+    branches: [berkay-master]
   workflow_dispatch:
 permissions:
   contents: read
